@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{0fb2e42b-28c4-46d4-93f2-657aea0a4b36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{6ceb47f4-8ddb-4728-8130-d0c852ff65ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Common">
+      <UniqueIdentifier>{ba88b338-b667-40d8-801a-e18f30914402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Engine">
+      <UniqueIdentifier>{9895c2ca-9e56-4240-94ad-156888725e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Network">
+      <UniqueIdentifier>{ce8cdc92-f7d1-4ca5-9de1-b4d58ed0182f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Common">
+      <UniqueIdentifier>{6bff9f90-4d96-4b79-b7cd-b83a95ea5801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Engine">
+      <UniqueIdentifier>{36890db9-b2d0-4e45-a36d-ea7c2f17c485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Network">
+      <UniqueIdentifier>{1c7e256f-3f3d-4d89-a9c4-eba12cd0c0b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Common\Network.h">
+      <Filter>Include\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\NetworkBuffer.h">
+      <Filter>Include\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\NetworkLog.h">
+      <Filter>Include\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\NetworkStream.h">
+      <Filter>Include\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\NetworkTypes.h">
+      <Filter>Include\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Engine\NetworkEngine.h">
+      <Filter>Include\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Engine\NetworkFunction.h">
+      <Filter>Include\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Engine\NetworkObject.h">
+      <Filter>Include\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Engine\NetworkProperty.h">
+      <Filter>Include\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Engine\NetworkReplicable.h">
+      <Filter>Include\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Network\NetworkAPI.h">
+      <Filter>Include\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Network\NetworkCommand.h">
+      <Filter>Include\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Network\NetworkEvent.h">
+      <Filter>Include\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Network\NetworkManager.h">
+      <Filter>Include\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Network\NetworkRemoteEngine.h">
+      <Filter>Include\Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Common\NetworkBuffer.cpp">
+      <Filter>Src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Common\NetworkLog.cpp">
+      <Filter>Src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Common\NetworkStream.cpp">
+      <Filter>Src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Common\NetworkTypes.cpp">
+      <Filter>Src\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\NetworkEngine.cpp">
+      <Filter>Src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\NetworkFunction.cpp">
+      <Filter>Src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\NetworkObject.cpp">
+      <Filter>Src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\NetworkProperty.cpp">
+      <Filter>Src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\NetworkReplicable.cpp">
+      <Filter>Src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Network\NetworkManager.cpp">
+      <Filter>Src\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Network\NetworkRemoteEngine.cpp">
+      <Filter>Src\Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

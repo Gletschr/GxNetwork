@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{be67cc46-22a8-4ce1-917f-f55c4aa89b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{83df79eb-370e-4967-b912-f37f919f0630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Actors">
+      <UniqueIdentifier>{08ee1c9c-e5b3-42e8-9340-1549b4fd253e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Actors">
+      <UniqueIdentifier>{3634f1e8-89f5-43d2-984b-8b183b720363}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\NetworkActor.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\NetworkClasses.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\NetworkScene.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Actors\NetworkCharacterActor.h">
+      <Filter>Include\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Actors\NetworkLandscapeActor.h">
+      <Filter>Include\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Actors\NetworkPawnActor.h">
+      <Filter>Include\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Actors\NetworkTreeActor.h">
+      <Filter>Include\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Actors\NetworkWaterActor.h">
+      <Filter>Include\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Actors\NetworkMobActor.h">
+      <Filter>Include\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Actors\NetworkCustomActor.h">
+      <Filter>Include\Actors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\NetworkActor.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\NetworkScene.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actors\NetworkCharacterActor.cpp">
+      <Filter>Src\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actors\NetworkLandscapeActor.cpp">
+      <Filter>Src\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actors\NetworkPawnActor.cpp">
+      <Filter>Src\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actors\NetworkTreeActor.cpp">
+      <Filter>Src\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actors\NetworkWaterActor.cpp">
+      <Filter>Src\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actors\NetworkMobActor.cpp">
+      <Filter>Src\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Actors\NetworkCustomActor.cpp">
+      <Filter>Src\Actors</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
